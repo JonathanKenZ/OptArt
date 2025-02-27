@@ -115,7 +115,7 @@ def read_image(file_name):
 
 def main():
     length = 2
-    file = os.path.join(os.pardir, 'data', 'input', 'pearl_wb.jpg')
+    file = os.path.join(os.pardir, 'data', 'input', 'IMG_1032.jpeg')
     out_file = os.path.join(os.pardir, 'data', 'output',
                             'pearl_truchet_{}'.format(length))
     image = read_image(file)
